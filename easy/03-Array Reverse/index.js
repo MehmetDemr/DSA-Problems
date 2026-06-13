@@ -4,7 +4,7 @@
 
 // function arrayReverse(array = []) {
 //   if (array.length <= 0) {
-//     console.log("It must be an array");
+//     return "It must be an array";
 //   }
 
 //   let sortedArray = array.reverse();
@@ -18,7 +18,7 @@ let array2 = [4, 5, 1, 2];
 
 function arrayReverse(array = []) {
   if (array.length <= 0) {
-    console.log("It must be an array");
+    return "It must be an array";
   }
 
   let sortedArray = [];

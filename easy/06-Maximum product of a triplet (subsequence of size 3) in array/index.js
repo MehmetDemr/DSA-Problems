@@ -6,7 +6,7 @@ let array3 = [1, -4, 3, -6, 7, 0];
 
 function maximumProduct(array = []) {
   if (array.length <= 0) {
-    console.log("It must be an array");
+    return "It must be an array";
   }
 
   let sortedArray = [];

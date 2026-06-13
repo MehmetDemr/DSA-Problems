@@ -12,7 +12,7 @@ let k3 = 5;
 
 function reverseAnArrayInGroups(array = [], k) {
   if (array.length <= 0) {
-    console.log("It must be an array");
+    return "It must be an array";
   }
 
   if (array.length < k) {

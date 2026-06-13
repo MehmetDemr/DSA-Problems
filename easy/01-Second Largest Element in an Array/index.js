@@ -6,7 +6,7 @@ let array3 = [10, 10, 10];
 
 function secondLargest(array = []) {
   if (array.length <= 0) {
-    console.log("It must be an array");
+    return "It must be an array";
   }
 
   let secondLargestNumber = 0;

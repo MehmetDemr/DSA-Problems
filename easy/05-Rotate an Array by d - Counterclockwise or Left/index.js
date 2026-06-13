@@ -8,7 +8,7 @@
 
 // function rotateAnArray(array = [], d) {
 //   if (array.length <= 0) {
-//     console.log("It must be an array");
+//     return "It must be an array";
 //   }
 
 //   let temp;
@@ -30,7 +30,7 @@ d2 = 4;
 
 function rotateAnArray(array = [], d) {
   if (array.length <= 0) {
-    console.log("It must be an array");
+    return "It must be an array";
   }
 
   for (let i = 0; i < d; i++) {
