@@ -1,0 +1,12 @@
+Given a string s, check if it is Pangram or not. 
+A pangram is a sentence containing all letters of the English Alphabet.
+
+Examples: 
+
+Input: s = "The quick brown fox jumps over the lazy dog" 
+Output: true
+Explanation: The input string contains all characters from 'a' to 'z'.
+
+Input: s = "The quick brown fox jumps over the dog"
+Output: false
+Explanation: The input string does not contain all characters from 'a' to 'z', as 'l', 'z', 'y' are missing
